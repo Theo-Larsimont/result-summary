@@ -1,7 +1,29 @@
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  grid-area: footer;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  max-width: 1440px;
+  display: grid;
+  grid-template-areas:
+    "col-result col-summary"
+    "footer footer";
+  justify-content: center;
+}
+.col-result {
+  grid-area: col-result;
+  border: solid;
+  width: 350px;
+}
+.col-result > h2 {
+  text-align: center;
+}
+.col-summary {
+  border: solid;
+  width: 350px;
+  grid-area: col-summary;
+}
