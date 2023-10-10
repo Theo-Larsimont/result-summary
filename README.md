@@ -23,6 +23,7 @@ Through this project, I aimed to recreate an HTML page based on the project imag
 
 ### Links
 - Solution URL : https://github.com/Theo-Larsimont/result-summary.git
+- live solution : https://theo-larsimont.github.io/result-summary
 
 ## My process
 
